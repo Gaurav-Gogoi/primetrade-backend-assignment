@@ -1,0 +1,55 @@
+# =========================
+# Backend (Python / Django)
+# =========================
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+venv/
+env/
+ENV/
+.venv/
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# =========================
+# Frontend (Node / React / Vite)
+# =========================
+# Dependencies
+frontend/node_modules/
+node_modules/
+
+# Production build directories
+frontend/dist/
+frontend/dist-ssr/
+
+# Vite specific
+frontend/*.local
+
+# =========================
+# OS & Editor Files
+# =========================
+# Mac
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# IDEs (VS Code, PyCharm, etc.)
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment Variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
